@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage("pull") {
             steps {
-                git url: 'https://github.com/pczr-alx/kalkulator_java.git', branch: 'master'
+                git url: 'https://github.com/szkolenietmgrudzien2025/kalkulator_java.git', branch: 'master'
             }
         }
         stage("build") {
